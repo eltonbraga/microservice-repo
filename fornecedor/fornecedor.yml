@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/fornecedor
+    username: root
+    password: MySql2019!
